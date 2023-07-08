@@ -1,0 +1,19 @@
+[debug] [2023-07-08T16:02:28.185Z] ----------------------------------------------------------------------
+[debug] [2023-07-08T16:02:28.188Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Multilent-PC\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-07-08T16:02:28.189Z] CLI Version:   12.4.3
+[debug] [2023-07-08T16:02:28.189Z] Platform:      win32
+[debug] [2023-07-08T16:02:28.189Z] Node Version:  v18.16.1
+[debug] [2023-07-08T16:02:28.190Z] Time:          Sat Jul 08 2023 17:02:28 GMT+0100 (West Africa Standard Time)
+[debug] [2023-07-08T16:02:28.190Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-08T16:02:28.310Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-08T16:02:28.311Z] > authorizing via signed-in user (ibinolamichael1@gmail.com)
+[debug] [2023-07-08T16:02:28.311Z] [iam] checking project scissors-e7efe for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-07-08T16:02:28.313Z] > refreshing access token with scopes: []
+[debug] [2023-07-08T16:02:28.316Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-07-08T16:02:28.316Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-08T16:02:29.161Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-07-08T16:02:29.163Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-08T16:02:29.205Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/scissors-e7efe:testIamPermissions [none]
+[debug] [2023-07-08T16:02:29.206Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/scissors-e7efe:testIamPermissions x-goog-quota-user=projects/scissors-e7efe
+[debug] [2023-07-08T16:02:29.206Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/scissors-e7efe:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}

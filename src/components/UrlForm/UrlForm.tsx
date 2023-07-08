@@ -33,7 +33,7 @@ const UrlForm = () => {
       const urlRef = ref(database, "urls");
       const shortUrlRef = child(urlRef, shortUrlKey);
       await set(shortUrlRef, { longUrl });
-      const shortUrl = `${window.location.origin}/${shortUrlKey}`;
+      const shortUrl = `${window.location.protocol}/${shortUrlKey}`;
       setShortUrl(shortUrl);
       setQrCodeData(shortUrl);
     } catch (error) {
